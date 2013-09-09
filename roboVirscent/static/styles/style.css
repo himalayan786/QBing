@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0 0 0 0;
+	padding:0px;
+}
+body #up_down{
+	background:url(/static/images/bg-header.jpg) repeat-x;
+	width:100%;
+}
+.scrolbox-middle {
+	/*background:url(/static/images/scrolbox-middle.jpg) repeat-x;*/
+	height:127px;
+}
+.footer-middle {
+	/*background:url(/static/images/footer_middle.png) repeat-x;*/
+	background:#000;-moz-border-radius: 15px;
+	border-radius: 15px;
+	height:35px;
+	padding: 0 15px 0 15px;
+}
+.footer a img:hover{opacity:0.5;}
+p {
+	margin:0px;
+	padding:0px;
+}
+.text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	text-align:justify;
+	line-height:22px;
+	margin:10px;
+	font-weight:normal;
+}
+.footer {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-align:left;
+	line-height:22px;
+	margin:5px;
+	font-weight:normal;
+}
+.boxgrid {
+	width: 325px;
+	height: 260px;
+	margin:10px;
+	float:left;
+	background:#161613;
+	border: solid 2px #8399AF;
+	overflow: hidden;
+	position: relative;
+}
+.boxgrid img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+.boxgrid p {
+	padding: 0 10px;
+	color:#afafaf;
+	font-weight:bold;
+	font:10pt "Lucida Grande", Arial, sans-serif;
+}
+.boxcaption {
+	float: left;
+	position: absolute;
+	background: #000;
+	height: 100px;
+	width: 100%;
+	opacity: .8;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.captionfull .boxcaption {
+	top: 260;
+	left: 0;
+}
+.caption .boxcaption {
+	top: 220;
+	left: 0;
+}
+h3 {
+	margin: 10px 10px 0 10px;
+	color:#FFF;
+	font:16pt Arial, sans-serif;
+	letter-spacing:-1px;
+	font-weight: bold;
+}
+
+h3 a{
+	margin: 10px 10px 0 10px;
+	color:#FFF;
+	font:16pt Arial, sans-serif;
+	letter-spacing:-1px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+h3 a:hover{
+	margin: 10px 10px 0 10px;
+	color:#FFF;
+	font:16pt Arial, sans-serif;
+	letter-spacing:-1px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+.text a{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-align:justify;
+	line-height:22px;
+	margin:10px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.text a:hover{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-align:justify;
+	line-height:22px;
+	margin:10px;
+	font-weight:normal;
+	text-decoration:underline;
+}
